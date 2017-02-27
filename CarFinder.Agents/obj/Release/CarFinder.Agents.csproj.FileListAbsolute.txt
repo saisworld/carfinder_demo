@@ -1,0 +1,7 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\bin\Release\CarFinder.Agents.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\bin\Release\CarFinder.Agents.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\bin\Release\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\bin\Release\CarFinder.Helpers.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\obj\Release\CarFinder.Agents.csprojResolveAssemblyReference.cache
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\obj\Release\CarFinder.Agents.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Agents\obj\Release\CarFinder.Agents.pdb

@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="CarFinder.Views.FormControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewmodel="clr-namespace:CarFinder.ViewModel.ViewModels;assembly=CarFinder.ViewModel"
+             xmlns:converter="clr-namespace:CarFinder.Converters"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" >
+    <UserControl.Resources>
+        <viewmodel:CarViewModel x:Key="ViewModel"/>
+        <converter:BoolToStringConverter x:Key="boolToStringConv" TrueValue="Running..." FalseValue="Stopped!"></converter:BoolToStringConverter>
+        <converter:BoolToStringConverter x:Key="boolToStringFoundNotFoundConv" TrueValue="Found" FalseValue="Not Found!"></converter:BoolToStringConverter>
+        <Style TargetType="{x:Type Button}" x:Key="ValidateButtonStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=txtInitialPosition, Path=(Validation.HasError)}">
+                    <Setter Property="IsEnabled" Value="False"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid DataContext="{Binding Source={StaticResource ViewModel}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0"
+                   Grid.Row="0"
+                   Text="Initial Position"
+                   Style="{StaticResource LabelTextBlockStyle}" />
+
+        <TextBox Grid.Column="1"
+                 Grid.Row="0" Name="txtInitialPosition"
+                 Text="{Binding CarModel.InitialPosition, Mode=TwoWay, ValidatesOnDataErrors=True}" />
+
+        <TextBlock Grid.Column="0"
+                   Grid.Row="1"
+                   Text="Velocity"
+                   Style="{StaticResource LabelTextBlockStyle}"
+                   Margin="0,5,10,0" />
+
+        <TextBox Grid.Column="1"
+                 Grid.Row="1" Name="txtInitialVelocity"
+                 Text="{Binding CarModel.InitialVelocity, Mode=TwoWay, ValidatesOnDataErrors=True}"
+                 Margin="0,5,0,0" />
+
+
+        <Border Grid.Column="1"
+                Grid.Row="2" Grid.ColumnSpan="2"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Margin="0,5,0,5">
+            <Button Content="Random Values"
+                                Command="{Binding RandomValues}"
+                                Padding="10" />
+        </Border>
+
+        <StackPanel Grid.Column="1"
+                Grid.Row="3" Grid.ColumnSpan="2"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Margin="0,5,0,5" Orientation="Horizontal">
+            <Button Content="Stop" Background="Firebrick"
+                                Command="{Binding StopCommand}"
+                                Padding="10" />
+            <Button Content="Play" Margin="5,0,0,0"  Background="Green"
+                                Command="{Binding PlayCommand}"
+                                Padding="10"  >
+               
+            </Button>
+        </StackPanel>
+
+        <TextBlock Grid.Column="0"
+                       Grid.Row="4"
+                       Text="Game status: "
+                       Style="{StaticResource LabelTextBlockStyle}" />
+
+        <TextBlock Grid.Column="1"
+                         Grid.Row="4"
+                         Text="{Binding CarModel.IsGameRunning, Converter={StaticResource boolToStringConv}}" />
+
+        <Grid Grid.Row="5" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <!--                        <ColumnDefinition Width="*" />-->
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <DataGrid Grid.Column="0" ItemsSource="{Binding CarModel.CarFoundResults}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Agent Name" Binding="{Binding FinderName}" />
+                    <DataGridTextColumn Header="Found Car?" Binding="{Binding IsCarFound, Converter={StaticResource boolToStringFoundNotFoundConv}}" />
+                    <DataGridTextColumn Header="Time (tk)" Binding="{Binding CarFoundTime}" />
+                    <DataGridTextColumn Header="Position" Binding="{Binding Position}" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!--                    <Border Grid.Column="1"-->
+            <!--                            HorizontalAlignment="Right"-->
+            <!--                            VerticalAlignment="Bottom"-->
+            <!--                            Margin="0,10,0,0">-->
+            <!--                        <Button Content="Validate"-->
+            <!--                                Command="{Binding ValidateCommand}"-->
+            <!--                                Padding="10" />-->
+            <!--                    </Border>-->
+
+        </Grid>
+
+    </Grid>
+</UserControl>

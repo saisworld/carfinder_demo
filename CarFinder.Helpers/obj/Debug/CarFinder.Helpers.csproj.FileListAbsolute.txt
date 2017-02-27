@@ -1,0 +1,5 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\bin\Debug\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\bin\Debug\CarFinder.Helpers.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\obj\Debug\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\obj\Debug\CarFinder.Helpers.pdb
+C:\Users\gb244627\Documents\Visual Studio 2015\Projects\CarFinder\CarFinder.Helpers\obj\Debug\CarFinder.Helpers.csprojResolveAssemblyReference.cache

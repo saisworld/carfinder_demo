@@ -1,0 +1,11 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.ViewModel.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.ViewModel.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Models.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Agents.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Models.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Agents.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\bin\Release\CarFinder.Helpers.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\obj\Release\CarFinder.ViewModel.csprojResolveAssemblyReference.cache
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\obj\Release\CarFinder.ViewModel.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.ViewModel\obj\Release\CarFinder.ViewModel.pdb

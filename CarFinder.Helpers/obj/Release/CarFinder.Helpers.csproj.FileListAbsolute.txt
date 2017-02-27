@@ -1,0 +1,4 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\bin\Release\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\bin\Release\CarFinder.Helpers.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\obj\Release\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Helpers\obj\Release\CarFinder.Helpers.pdb

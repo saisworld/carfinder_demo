@@ -1,0 +1,15 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Console.exe.config
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Console.exe
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Console.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\obj\Debug\CarFinder.Console.csprojResolveAssemblyReference.cache
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\obj\Debug\CarFinder.Console.exe
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\obj\Debug\CarFinder.Console.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Models.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CsvHelper.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Agents.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Models.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CsvHelper.xml
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Agents.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\CarFinder.Helpers.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Console\bin\Debug\Files\Input.csv

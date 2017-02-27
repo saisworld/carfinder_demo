@@ -1,0 +1,13 @@
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Tests.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Tests.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\nunit.framework.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\nunit.framework.xml
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\obj\Debug\CarFinder.Tests.csprojResolveAssemblyReference.cache
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\obj\Debug\CarFinder.Tests.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\obj\Debug\CarFinder.Tests.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Models.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Agents.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Helpers.dll
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Models.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Agents.pdb
+c:\users\gb244627\documents\visual studio 2015\Projects\CarFinder\CarFinder.Tests\bin\Debug\CarFinder.Helpers.pdb
